@@ -1,4 +1,5 @@
 import '../css/Navbar.css'
+import CarWidget from './Carwidget'
 
 
 const Navbar = () => {
@@ -10,7 +11,8 @@ const Navbar = () => {
             <a className="nav-link" href="">Nuevos</a>
             <a className="nav-link" href="">Mas vendidos</a>
             <a className="nav-link" href="">Ofertas</a>
-        </nav>
+            <CarWidget/>
+            </nav>
     ) ;
 
 }
