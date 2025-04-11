@@ -1,10 +1,9 @@
-const CarWidget = () => {
+const CarWidget = ({ className }) => {
     return (
-        <div>
+        <div className={className}>
             <span>🛒5</span>
-
         </div>
-    )
-}
+    );
+};
 
-export default CarWidget
+export default CarWidget;
